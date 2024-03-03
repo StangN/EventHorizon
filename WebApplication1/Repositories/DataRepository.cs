@@ -6,7 +6,7 @@ namespace WebApplication1.Repositories
 {
     public class DataRepository : IDataRepository
     {
-        const string connnectionString = "mongodb+srv://nstang:asdasddsa@eventhorizoncluster.aixaxoy.mongodb.net/?retryWrites=true&w=majority";
+        const string connnectionString = "placeholder";
 
         IMongoClient _client;
 
